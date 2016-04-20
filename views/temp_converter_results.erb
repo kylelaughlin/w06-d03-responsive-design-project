@@ -1,7 +1,11 @@
-<h1>Results of Temperature Conversion</h1>
+<div class="container">
+  <h1 class="text-center">Results of Temperature Conversion</h1>
+  <hr>
+  <div class="text-center">
+    <p>You started with <%= @temperature %> degrees (<%= @units %>).</p>
+    <p>This is equivalent to <%= @result %> degrees (<%= @ending_unit %>).</p>
 
-<p>You started with <%= @temperature %> degrees (<%= @units %>).</p>
-<p>This is equivalent to <%= @result %> degrees (<%= @ending_unit %>).</p>
-
-<p><a href="/temp-converter">Convert another temperature</a></p>
-<p><a href="/">Back Home</a></p>
+    <p><a href="/temp-converter">Convert another temperature</a></p>
+    <p><a href="/">Back Home</a></p>
+  <div class="text-center">
+</div>

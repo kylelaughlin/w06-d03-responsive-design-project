@@ -1,10 +1,22 @@
-<h1>Let's Convert Some Temperatures</h1>
-
-<form action="/temp-converter-results" method="get">
-  <input type="text" name="temperature"> Degrees
-  <select name="units">
-    <option value="f">Fahrenheit</option>
-    <option value="c">Celsius</option>
-  </select>
-  <input type="submit" value="Submit">
-</form>
+<div class="container">
+  <h1 class="text-center">Let's Convert Some Temperatures</h1>
+<hr>
+  <form action="/temp-converter-results" method="get" class="form-inline">
+    <div class="form-group">
+      <label for="temp">Degrees</label>
+      <input class="form-control" type="text" name="temperature" id="temp">
+    </div>
+    <div class="form-group">
+      <select class="form-control" name="units">
+        <option value="f">Fahrenheit</option>
+        <option value="c">Celsius</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <input class="btn btn-primary" type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+<div class="text-center m-t-10">
+  <a href="/">Back Home</a>
+</div>

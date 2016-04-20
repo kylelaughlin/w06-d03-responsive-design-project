@@ -1,3 +1,13 @@
+
+
 .m-t-10 {
   margin-top: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  .form-group-wrapper {
+    display: inline;
+    width: 300px;
+    border-color: blue;
+  }
 }
